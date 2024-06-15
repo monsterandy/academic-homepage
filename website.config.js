@@ -1,23 +1,23 @@
 export const personalInfo = {
-  name: "Hiroshi Ishii",
-  profilePicture: "/profile.jpg", //optional
-  role: "Professor",
-  university: "MIT Media Lab",
-  universityWebsite: "https://www.zju.edu.cn/",
+  name: "Zheyuan (Andy) Ma",
+  profilePicture: "/profile.jpeg", //optional
+  role: "Ph.D. Student",
+  university: "SUNY University at Buffalo",
+  universityWebsite: "https://www.buffalo.edu/",
   socialMedia: [
-    { name: "Email", url: "https://linkedin.com" },
-    { name: "Twitter", url: "https://twitter.com/anxndsgn" },
+    { name: "Email", url: "mailto:zheyuanm@buffalo.edu" },
+    { name: "Scholar", url: "https://scholar.google.com/citations?user=3ZKnS6EAAAAJ&hl=en" },
     {
       name: "GitHub",
-      url: "https://github.com/anxndsgn/academic-homepage-template",
+      url: "https://github.com/monsterandy",
     },
-    { name: "LinkedIn", url: "https://linkedin.com" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/zheyuan-ma-ab3189193/" },
   ],
 };
 
 export const websiteInfo = {
   title: personalInfo.name,
-  description: "HCI researcher",
+  description: "Ph.D. Student",
   // teaserImage: "/teaser.jpg",
 };
 
@@ -32,6 +32,6 @@ export const navigation = [
 export const homepageSection = {
   AboutSection: true,
   SelectedPublicationsSection: true,
-  ProjectSection: true,
+  ProjectSection: false,
   NewsSection: true,
 };
