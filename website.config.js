@@ -1,6 +1,7 @@
 export const personalInfo = {
   name: "Zheyuan (Andy) Ma",
-  profilePicture: "/profile.jpeg", //optional
+  legalName: "Zheyuan Ma",
+  profilePicture: "/profile.png", //optional
   role: "Ph.D. Student",
   university: "SUNY University at Buffalo",
   universityWebsite: "https://www.buffalo.edu/",
@@ -17,7 +18,7 @@ export const personalInfo = {
 
 export const websiteInfo = {
   title: personalInfo.name,
-  description: "Ph.D. Student",
+  description: "Ph.D. Student @CactiLab",
   // teaserImage: "/teaser.jpg",
 };
 

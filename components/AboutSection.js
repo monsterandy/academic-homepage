@@ -6,6 +6,7 @@ import {
   RiMailLine,
   RiGithubFill,
   RiGoogleFill,
+  RiGitRepositoryFill,
   RiLinkedinBoxFill,
   RiTwitterXLine,
 } from "@remixicon/react";
@@ -47,7 +48,7 @@ export default function AboutSection() {
                     ) : social.name === "Twitter" ? (
                       <RiTwitterXLine size={16} />
                     ) : social.name === "Scholar" ? (
-                      <RiGoogleFill size={16} />
+                      <RiGitRepositoryFill size={16} />
                     ) : (
                       <RiLinkedinBoxFill size={16} />
                     )}
